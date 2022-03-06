@@ -834,6 +834,7 @@
 				"constant.other.placeholder.c",
 				"constant.character.escape",
 				"string.quoted.other.lt-gt.include.c",
+				"variable.language.special.self.python"
 				
 				
 			],
@@ -918,6 +919,7 @@
 				"storage.type.function.python",
 				"constant.character.format.placeholder.other.python",
 				"support.type.python",
+				"storage.type.class.python",
 			],
 			"settings": {
 			  "foreground": "#ce5499" // "#b98aa5" old
