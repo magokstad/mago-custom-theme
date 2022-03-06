@@ -2,7 +2,7 @@
     "name": "mago-custom-theme",
     "displayName": "Mago Custom Theme",
     "description": "Made for myself, but you can use it as well!",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "magokstad",
     "repository": {
         "type": "git",
