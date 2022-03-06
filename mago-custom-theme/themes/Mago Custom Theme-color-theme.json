@@ -799,13 +799,33 @@
 				"variable",
 				"variable.parameter.c",
 				"parameter",
-				"variable.other.local.c"
+				"variable.other.local.c",
+				"meta.function-call.java",
+				"meta.method-call.java",
+				"meta.try.body.java",
+				"meta.method.body.java",
+				"variable.parameter.java",
+				"source.python",
 			],
 			"settings": {
 			  "foreground": "#B4C9DA",
 			  "fontStyle": ""
 			}
 		},
+
+		// VARIABLE ALTS
+		{
+			"scope": 
+			[
+				"meta.indexed-name.python"
+			],
+			"settings": {
+			  "foreground": "#C99DA3",
+			  "fontStyle": ""
+			}
+		},
+
+		
 
 		//PLACEHOLDER?
 		{
@@ -829,7 +849,8 @@
 				"constant.numeric",
 				"string.quoted.double.c",
 				"string.quoted.double.java",
-				"punctuation.definition.string"
+				"punctuation.definition.string",
+				"string.quoted.single.python",
 			],
 			"settings": {
 			  "foreground": "#7dbdf8"
@@ -845,7 +866,8 @@
 			[
 				"entity.name.function.c",
 				"keyword.control",
-				"function"
+				"function",
+				"meta.function-call.generic.python",
 			],
 			"settings": {
 			  "foreground": "#60f3a7", // old"#94FFC7"
@@ -859,7 +881,9 @@
 			[
 				"keyword.other",
 				"source.c",
-				"entity.name.type"
+				"entity.name.type",
+				"support.variable.magic.python",
+				
 			],
 			"settings": {
 			  "foreground": "#f55a5a"//"#d45757"
@@ -872,7 +896,12 @@
 			[
 				"keyword",
 				"punctuation.separator",
-				"storage.modifier.java"
+				"storage.modifier.java",
+				"keyword.control.java",
+				"keyword.control.c",
+				"entity.name.type.c",
+				"keyword.control.flow.python",
+				
 			],
 			"settings": {
 			  "foreground": "#FFAF37"//"#d45757"
@@ -882,9 +911,13 @@
 		// um type names?
 		{
 			"scope": [
-				"storage.type.built-in.primitive.c", 
+				"storage.type.built-in.primitive.c",
+				"storage.type.primitive.java", 
 				"storage.type.java",
 				"keyword.other.import.java",
+				"storage.type.function.python",
+				"constant.character.format.placeholder.other.python",
+				"support.type.python",
 			],
 			"settings": {
 			  "foreground": "#ce5499" // "#b98aa5" old
@@ -893,6 +926,8 @@
 		{
 			"scope": [
 				"comment.line.double-slash.c",
+				"comment.line.double-slash.java",
+				"comment.line.number-sign.python",
 				"comment.block.java"
 			],
 			"settings": {
