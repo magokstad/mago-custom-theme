@@ -795,6 +795,7 @@
 			"scope": 
 			[
 				"source.c", // a c default
+				"source.python",
 
 				"variable",
 				"variable.parameter.c",
@@ -805,7 +806,6 @@
 				"meta.try.body.java",
 				"meta.method.body.java",
 				"variable.parameter.java",
-				"source.python",
 			],
 			"settings": {
 			  "foreground": "#c1d0dd",
@@ -872,6 +872,7 @@
 				"keyword.control",
 				"function",
 				"entity.name.function.java",
+				"entity.name.function.python",
 				"meta.function-call.generic.python",
 			],
 			"settings": {
@@ -888,6 +889,10 @@
 				"storage.type.struct.c",
 				"entity.name.type",
 				"support.variable.magic.python",
+				"support.function.magic.python",
+				
+				"support.function.builtin.python",
+
 				"storage.type.annotation",
 				"entity.other.inherited-class.java"
 				
@@ -921,6 +926,8 @@
 
 				"entity.name.type.c",
 				"keyword.control.flow.python",
+
+				
 				
 			],
 			"settings": {
