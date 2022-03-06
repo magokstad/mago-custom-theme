@@ -813,7 +813,8 @@
 			[
 				"constant.other.placeholder.c",
 				"constant.character.escape",
-				"string.quoted.other.lt-gt.include.c"
+				"string.quoted.other.lt-gt.include.c",
+				
 				
 			],
 			"settings": {
@@ -826,7 +827,9 @@
 			"scope":  
 			[
 				"constant.numeric",
-				"string.quoted.double.c"
+				"string.quoted.double.c",
+				"string.quoted.double.java",
+				"punctuation.definition.string"
 			],
 			"settings": {
 			  "foreground": "#7dbdf8"
@@ -845,10 +848,12 @@
 				"function"
 			],
 			"settings": {
-			  "foreground": "#94FFC7",
+			  "foreground": "#60f3a7", // old"#94FFC7"
 			  "fontStyle": ""
 			}
 		},
+
+		// KEYWORDS??
 		{
 			"scope": 
 			[
@@ -857,29 +862,41 @@
 				"entity.name.type"
 			],
 			"settings": {
-			  "foreground": "#fc7a7a"//"#d45757"
+			  "foreground": "#f55a5a"//"#d45757"
 			}
 		},
+
+		// SEPARATORS
 		{
 			"scope": 
 			[
 				"keyword",
-				"punctuation.separator"
+				"punctuation.separator",
+				"storage.modifier.java"
 			],
 			"settings": {
 			  "foreground": "#FFAF37"//"#d45757"
 			}
 		},
+
+		// um type names?
 		{
-			"scope": "storage.type.built-in.primitive.c",
+			"scope": [
+				"storage.type.built-in.primitive.c", 
+				"storage.type.java",
+				"keyword.other.import.java",
+			],
 			"settings": {
-			  "foreground": "#b98aa5"
+			  "foreground": "#ce5499" // "#b98aa5" old
 			}
 		},
 		{
-			"scope": "comment.line.double-slash.c",
+			"scope": [
+				"comment.line.double-slash.c",
+				"comment.block.java"
+			],
 			"settings": {
-			  "foreground": "#776f7a",
+			  "foreground": "#716375",
 			  "fontStyle": "italic"
 			}
 		}

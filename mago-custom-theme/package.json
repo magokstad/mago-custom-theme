@@ -6,7 +6,7 @@
     "publisher": "magokstad",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/magokstad/mago-custom-theme"
     },
     "engines": {
         "vscode": "^1.65.0"
