@@ -154,7 +154,7 @@
 		"sideBarSectionHeader.border": "#1A1A1A60",
 		"sideBarSectionHeader.foreground": "#A3A3A3",
 		"sideBarTitle.foreground": "#AFAFAF",
-		"statusBar.background": "#797979",
+		"statusBar.background": "#6a4c72",
 		"statusBar.border": "#1A1A1A60",
 		"statusBar.debuggingBackground": "#A0A0A0",
 		"statusBar.debuggingForeground": "#ECECEC",
@@ -402,20 +402,16 @@
 			"string.quoted.double.json",
 			"markup.fenced_code.block.markdown",
 			"markup.inline.raw.string.markdown",
-			"variable.function",
-			"keyword.other.special-method",
-			"entity.name.function",
 			"markup.bold",
 			"markup.bold.markdown",
 			"markup.italic.markdown",
 			"meta.class-method.js entity.name.function.js",
-			"variable.function.constructor",
 			"entity.name.tag.other.html",
 			"entity.name.tag.block.any.html",
 			"source.sass keyword.control"
 		  ],
 		  "settings": {
-			"foreground": "#A3A3A3"
+			"foreground": "#7dbdf8"
 		  }
 		},
 		{
@@ -633,7 +629,7 @@
 			"support.type.property-name.json"
 		  ],
 		  "settings": {
-			"foreground": "#AFAFAF"
+			"foreground": "#957fcf"
 		  }
 		},
 		{
@@ -855,10 +851,14 @@
 			"scope":  
 			[
 				"constant.numeric",
-				"string.quoted.double.c",
-				"string.quoted.double.java",
 				"punctuation.definition.string",
+				
+				"string.quoted.double.c",
+
+				"string.quoted.double.java",
+
 				"string.quoted.single.python",
+				"string.quoted.docstring.multi.python",
 			],
 			"settings": {
 			  "foreground": "#7dbdf8"
@@ -914,9 +914,12 @@
 			[
 				"keyword",
 				"punctuation.separator",
+
 				"keyword.control.java",
+				
 				"keyword.control.c",
 
+				"keyword.control.flow.python",
 				
 				
 			],
@@ -933,10 +936,9 @@
 				"storage.modifier.java",
 
 				"entity.name.type.c",
-				"keyword.control.flow.python",
 
-				
-				
+				"storage.modifier.declaration.python",
+				"entity.name.type.class.python",
 				
 			],
 			"settings": {
@@ -970,7 +972,8 @@
 				"comment.line.double-slash.java",
 				"comment.line.number-sign.python",
 				"comment.block.java",
-				"comment.block.c"
+				"comment.block.c",
+				
 			],
 			"settings": {
 			  "foreground": "#716375",
