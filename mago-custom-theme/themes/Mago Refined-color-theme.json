@@ -819,9 +819,11 @@
 			[
 				"meta.indexed-name.python",
 				"storage.type"
+
+				
 			],
 			"settings": {
-			  "foreground": "#C99DA3",
+			  "foreground": "#9e6c73",
 			  "fontStyle": ""
 			}
 		},
@@ -838,11 +840,13 @@
 				"variable.language.special.self.python",
 				"constant.language",
 				"storage.modifier.implements.java",
+				"variable.language.java",
+				"variable.language.this.java",
 				
 				
 			],
 			"settings": {
-			  "foreground": "#486b8b"
+			  "foreground": "#48548b"
 			}
 		},
 
@@ -874,6 +878,8 @@
 				"entity.name.function.java",
 				"entity.name.function.python",
 				"meta.function-call.generic.python",
+
+				"support.function.builtin.python",
 			],
 			"settings": {
 			  "foreground": "#957fcf", // old"#94FFC7"
@@ -891,7 +897,7 @@
 				"support.variable.magic.python",
 				"support.function.magic.python",
 				
-				"support.function.builtin.python",
+				
 
 				"storage.type.annotation",
 				"entity.other.inherited-class.java"
@@ -910,6 +916,8 @@
 				"punctuation.separator",
 				"keyword.control.java",
 				"keyword.control.c",
+
+				
 				
 			],
 			"settings": {
@@ -927,6 +935,7 @@
 				"entity.name.type.c",
 				"keyword.control.flow.python",
 
+				
 				
 				
 			],
