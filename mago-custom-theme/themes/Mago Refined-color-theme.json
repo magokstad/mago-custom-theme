@@ -792,6 +792,7 @@
 			[
 				"source.c", // a c default
 				"source.python",
+				"source.v",
 
 				"variable",
 				"variable.parameter.c",
@@ -814,7 +815,9 @@
 			"scope": 
 			[
 				"meta.indexed-name.python",
-				"storage.type"
+				"storage.type",
+
+				"keyword.fn.v",
 
 				
 			],
@@ -836,6 +839,7 @@
 				"variable.language.special.self.python",
 				"constant.language",
 				"storage.modifier.implements.java",
+				"storage.modifier.extends.java",
 				"variable.language.java",
 				"variable.language.this.java",
 				
@@ -859,6 +863,7 @@
 
 				"string.quoted.single.python",
 				"string.quoted.docstring.multi.python",
+
 			],
 			"settings": {
 			  "foreground": "#7dbdf8"
@@ -874,6 +879,8 @@
 			[
 				"entity.name.function.c",
 				"keyword.control",
+				
+				"entity.name.function.v",
 				"function",
 				"entity.name.function.java",
 				"entity.name.function.python",
@@ -898,6 +905,10 @@
 				"support.function.magic.python",
 				
 				
+				
+				"storage.type.struct.v",
+				"storage.type.enum.v",
+				
 
 				"storage.type.annotation",
 				"entity.other.inherited-class.java"
@@ -920,6 +931,10 @@
 				"keyword.control.c",
 
 				"keyword.control.flow.python",
+
+				"meta.structure.array.json.comments",
+
+				"keyword.control.v",
 				
 				
 			],
@@ -935,7 +950,12 @@
 				
 				"storage.modifier.java",
 
+				"storage.modifier.attribute.v",
+
 				"entity.name.type.c",
+				
+				"entity.name.struct.v",
+				"entity.name.enum.v",
 
 				"storage.modifier.declaration.python",
 				"entity.name.type.class.python",
@@ -959,6 +979,12 @@
 				"storage.type.class.python",
 				"storage.type.generic.java",
 				"storage.modifier.c",
+
+				"keyword.function.v",
+				"storage.type.numeric.v",
+				"storage.type.bool.v",
+				"storage.modifier.v",
+				
 			],
 			"settings": {
 			  "foreground": "#ce5499" // "#b98aa5" old
@@ -970,9 +996,11 @@
 			"scope": [
 				"comment.line.double-slash.c",
 				"comment.line.double-slash.java",
+				"comment.line.double-slash.v",
 				"comment.line.number-sign.python",
 				"comment.block.java",
 				"comment.block.c",
+				"comment.block.documentation.v",
 				
 			],
 			"settings": {
