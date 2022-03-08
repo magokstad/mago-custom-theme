@@ -846,7 +846,7 @@
 				
 			],
 			"settings": {
-			  "foreground": "#48548b"
+			  "foreground": "#5D6CAC" // old: "#48548b"
 			}
 		},
 
