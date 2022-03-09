@@ -1,5 +1,5 @@
 {
-	"name": "",
+	"name": "Mago Refined",
 	  "$schema": "vscode://schemas/color-theme",
 	  "type": "dark",
 	  "colors": {
@@ -790,6 +790,7 @@
 		{
 			"scope": 
 			[
+				"text.tex",
 				"source.c", // a c default
 				"source.python",
 				"source.v",
@@ -818,7 +819,8 @@
 				"storage.type",
 
 				"keyword.fn.v",
-
+				
+				"keyword.other.item.latex",
 				
 			],
 			"settings": {
@@ -842,6 +844,10 @@
 				"storage.modifier.extends.java",
 				"variable.language.java",
 				"variable.language.this.java",
+
+				"variable.parameter.function.latex",
+				"support.class.math.block.tex",
+				"support.class.latex",
 				
 				
 			],
@@ -864,6 +870,8 @@
 				"string.quoted.single.python",
 				"string.quoted.docstring.multi.python",
 
+				"constant.character.math.tex",
+
 			],
 			"settings": {
 			  "foreground": "#7dbdf8"
@@ -877,6 +885,9 @@
 		{
 			"scope": 
 			[
+				"support.function.general.tex",
+				
+
 				"entity.name.function.c",
 				"keyword.control",
 				
@@ -887,6 +898,11 @@
 				"meta.function-call.generic.python",
 
 				"support.function.builtin.python",
+
+				
+				"support.function.be.latex",
+				"constant.other.general.math.tex",
+				
 			],
 			"settings": {
 			  "foreground": "#957fcf", // old"#94FFC7"
@@ -903,6 +919,8 @@
 				"entity.name.type",
 				"support.variable.magic.python",
 				"support.function.magic.python",
+
+				"keyword.control.preamble.latex",
 				
 				
 				
@@ -935,6 +953,9 @@
 				"meta.structure.array.json.comments",
 
 				"keyword.control.v",
+
+				"punctuation.definition",
+				"punctuation.math",
 				
 				
 			],
@@ -960,6 +981,11 @@
 				"storage.modifier.declaration.python",
 				"entity.name.type.class.python",
 				
+				"support.function.general.tex",
+				"entity.name.section.latex"
+
+				
+				
 			],
 			"settings": {
 			  "foreground": "#ffa844"//"#d45757"
@@ -984,6 +1010,12 @@
 				"storage.type.numeric.v",
 				"storage.type.bool.v",
 				"storage.modifier.v",
+
+				"support.function.section.latex",
+				
+
+				
+				
 				
 			],
 			"settings": {
@@ -994,6 +1026,7 @@
 		// COMMENTS
 		{
 			"scope": [
+				"comment",
 				"comment.line.double-slash.c",
 				"comment.line.double-slash.java",
 				"comment.line.double-slash.v",
@@ -1001,6 +1034,9 @@
 				"comment.block.java",
 				"comment.block.c",
 				"comment.block.documentation.v",
+
+				"punctuation.definition.comment.tex",
+				"punctuation.definition.comment.latex",
 				
 			],
 			"settings": {
